@@ -1,42 +1,33 @@
-# [Traccar](https://www.traccar.org)
+#Traccar
+Visão geral
+Traccar é um sistema de rastreamento GPS de código aberto. Este repositório contém o serviço de back-end baseado em Java. Ele suporta mais de 200 protocolos GPS e mais de 2000 modelos de dispositivos de rastreamento GPS. O Traccar pode ser usado com qualquer sistema de banco de dados SQL importante. Ele também fornece API REST fácil de usar.
 
-## Overview
+Outras partes da solução Traccar incluem:
 
-Traccar is an open source GPS tracking system. This repository contains Java-based back-end service. It supports more than 200 GPS protocols and more than 2000 models of GPS tracking devices. Traccar can be used with any major SQL database system. It also provides easy to use [REST API](https://www.traccar.org/traccar-api/).
+Aplicativo web Traccar
+Aplicativo Traccar Manager para Android
+Aplicativo Traccar Manager para iOS
+Há também um conjunto de aplicativos móveis que você pode usar para rastrear dispositivos móveis:
 
-Other parts of Traccar solution include:
+Aplicativo Traccar Client para Android
+Aplicativo Traccar Client para iOS
+Características
+Alguns dos recursos disponíveis incluem:
 
-- [Traccar web app](https://github.com/traccar/traccar-web)
-- [Traccar Manager Android app](https://github.com/traccar/traccar-manager-android)
-- [Traccar Manager iOS app](https://github.com/traccar/traccar-manager-ios)
+Rastreamento GPS em tempo real
+Monitoramento do comportamento do motorista
+Relatórios detalhados e resumidos
+Funcionalidade de cerca geográfica
+Alarmes e notificações
+Gerenciamento de contas e dispositivos
+Suporte por e-mail e SMS
+Construir
+Por favor, leia a documentação de compilação a partir da fonte no site oficial.
 
-There is also a set of mobile apps that you can use for tracking mobile devices:
-
-- [Traccar Client Android app](https://github.com/traccar/traccar-client-android)
-- [Traccar Client iOS app](https://github.com/traccar/traccar-client-ios)
-
-## Features
-
-Some of the available features include:
-
-- Real-time GPS tracking
-- Driver behaviour monitoring
-- Detailed and summary reports
-- Geofencing functionality
-- Alarms and notifications
-- Account and device management
-- Email and SMS support
-
-## Build
-
-Please read [build from source documentation](https://www.traccar.org/build/) on the official website.
-
-## Team
-
-- Anton Tananaev ([anton@traccar.org](mailto:anton@traccar.org))
-- Andrey Kunitsyn ([andrey@traccar.org](mailto:andrey@traccar.org))
-
-## License
+Equipe
+Anton Tananaev (anton@traccar.org)
+Andrey Kunitsyn (andrey@traccar.org)
+#Licença
 
     Apache License, Version 2.0
 
