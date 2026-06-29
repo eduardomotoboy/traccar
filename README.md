@@ -1,42 +1,42 @@
 # [Traccar](https://www.traccar.org)
 
-## Overview
+## Visão Geral
 
-Traccar is an open source GPS tracking system. This repository contains Java-based back-end service. It supports more than 200 GPS protocols and more than 2000 models of GPS tracking devices. Traccar can be used with any major SQL database system. It also provides easy to use [REST API](https://www.traccar.org/traccar-api/).
+Traccar é um sistema de rastreamento GPS de código aberto. Este repositório contém o serviço de back-end baseado em Java. Ele suporta mais de 200 protocolos GPS e mais de 2000 modelos de dispositivos de rastreamento GPS. O Traccar pode ser usado com qualquer sistema de banco de dados SQL importante. Ele também fornece uma [API REST](https://www.traccar.org/traccar-api/) fácil de usar.
 
-Other parts of Traccar solution include:
+Outras partes da solução Traccar incluem:
 
 - [Traccar web app](https://github.com/traccar/traccar-web)
 - [Traccar Manager Android app](https://github.com/traccar/traccar-manager-android)
 - [Traccar Manager iOS app](https://github.com/traccar/traccar-manager-ios)
 
-There is also a set of mobile apps that you can use for tracking mobile devices:
+Também há um conjunto de aplicativos móveis que você pode usar para rastrear dispositivos móveis:
 
 - [Traccar Client Android app](https://github.com/traccar/traccar-client-android)
 - [Traccar Client iOS app](https://github.com/traccar/traccar-client-ios)
 
-## Features
+## Recursos
 
-Some of the available features include:
+Alguns dos recursos disponíveis incluem:
 
-- Real-time GPS tracking
-- Driver behaviour monitoring
-- Detailed and summary reports
-- Geofencing functionality
-- Alarms and notifications
-- Account and device management
-- Email and SMS support
+- Rastreamento GPS em tempo real
+- Monitoramento do comportamento do motorista
+- Relatórios detalhados e resumidos
+- Funcionalidade de cerca geográfica
+- Alarmes e notificações
+- Gerenciamento de contas e dispositivos
+- Suporte a e-mail e SMS
 
-## Build
+## Compilação
 
-Please read [build from source documentation](https://www.traccar.org/build/) on the official website.
+Leia a [documentação de compilação a partir do código-fonte](https://www.traccar.org/build/) no site oficial.
 
-## Team
+## Equipe
 
 - Anton Tananaev ([anton@traccar.org](mailto:anton@traccar.org))
 - Andrey Kunitsyn ([andrey@traccar.org](mailto:andrey@traccar.org))
 
-## License
+## Licença
 
     Apache License, Version 2.0
 
