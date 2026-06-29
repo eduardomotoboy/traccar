@@ -7,7 +7,7 @@ services:
       MYSQL_RANDOM_ROOT_PASSWORD: "yes"
       MYSQL_DATABASE: traccar
       MYSQL_USER: traccar
-      MYSQL_PASSWORD: @Ed85962u
+      MYSQL_PASSWORD: "@Ed85962u"
     volumes:
       - /opt/traccar/data:/var/lib/mysql
 
@@ -20,7 +20,7 @@ services:
       CONFIG_USE_ENVIRONMENT_VARIABLES: "true"
       DATABASE_DRIVER: com.mysql.cj.jdbc.Driver
       DATABASE_URL: >-
-        jdbc:mysql://database:3306/traccar
+        jdbc:mysql://database:3307/traccar
         ?zeroDateTimeBehavior=round
         &serverTimezone=UTC
         &allowPublicKeyRetrieval=true
@@ -31,7 +31,7 @@ services:
         &characterEncoding=UTF-8
         &sessionVariables=sql_mode=''
       DATABASE_USER: traccar
-      DATABASE_PASSWORD: @Ed85962u
+      DATABASE_PASSWORD: "@Ed85962u"
     healthcheck:
       test: [ "CMD", "wget", "-q", "--spider", "http://localhost:8082/api/health" ]
       interval: 2m
